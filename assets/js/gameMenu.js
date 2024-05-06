@@ -1,3 +1,5 @@
+import { startGame } from "./startGame.js";
+
 export const createGameMenu = () => {
     const title = document.createElement('h2');
     const gameSection = document.querySelector('.game-section_container');
@@ -11,10 +13,10 @@ export const createGameMenu = () => {
         const button = document.createElement('button');
         button.classList.add('game-menu_button');
         button.textContent = `${difficult} cards`;
-        button.addEventListener('click', () => {
+        button.addEventListener('click', () => startGame(difficult)) 
             // Add functionality for button click here
-            console.log(`Clicked on ${difficult} cards`);
-        });
+
+            
         return button;
     }
     

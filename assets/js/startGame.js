@@ -1,6 +1,6 @@
 import { createIconsArray } from "./utils.js";
 import { dublicateArray } from "./utils.js";
-import { shuffle } from "./utils.js";
+import { shuffle } from "./utils.js";5
 export const startGame = (difficult) => {
     let firstCard = null;
     let secondCard = null;

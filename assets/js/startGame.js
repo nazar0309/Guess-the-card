@@ -1,6 +1,10 @@
 import { createIconsArray } from "./utils.js";
 import { dublicateArray } from "./utils.js";
 import { shuffle } from "./utils.js";
+import { createGameCard } from "./gameCard.js";
+import { createGameMenu } from "./gameMenu.js";
+
+
 export const startGame = (difficult) => {
     let firstCard = null;
     let secondCard = null;
@@ -14,13 +18,17 @@ export const startGame = (difficult) => {
     restartBtn.textContent = 'Restart';
     gameTable.classList.add('game-table');
     restartBtn.classList.add('restart-btn');
+    restartBtn.addEventListener('click', () => startGame(difficult));
     shuffle(dublicateCardsIcons);
     dublicateCardsIcons.forEach((icon) => gameTable.appendChild(createGameCard('question-circle', icon)));
 
     gameSection.append(gameTable, restartBtn);
 
     const cards = document.querySelectorAll('.game-card');
-  
 
-       
+    cards.forEach((card, index) => card.addEventListener('click', () => {
+        if (clickable == true && !card.classList.contains('successfully')) 
+            card.classList.add('flip');
+
+        }));
 }

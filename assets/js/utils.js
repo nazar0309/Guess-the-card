@@ -1,4 +1,4 @@
- export const  shuffle = (array) => {
+ export const shuffle = (array) => {
     let currentIndex = array.length;
   
     while (currentIndex != 0) {

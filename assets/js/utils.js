@@ -22,7 +22,7 @@ export const dublicateArray = (array) => array.reduce((res, current) => res.conc
 
 
 export const createIconsArray = (initialCount) => {
-    const cardsIcons = ['🍎', '🍌', '🍒', '🍓', '🍇', '🍉', '🍊', '🍋'];
+    const cardsIcons = ['bitcoin', 'eur', 'usd', 'film', 'won', 'money', 'gg-circle', 'ils'];
     
     switch(initialCount) {
         case 10:

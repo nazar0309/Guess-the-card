@@ -2,7 +2,6 @@ import { createIconsArray } from "./utils.js";
 import { dublicateArray } from "./utils.js";
 import { shuffle } from "./utils.js";
 import { createGameCard } from "./gameCard.js";
-import { createGameMenu } from "./gameMenu.js";
 
 
 export const startGame = (difficult) => {

@@ -19,7 +19,7 @@ export const startGame = (difficult) => {
     restartBtn.classList.add('restart-btn');
     restartBtn.addEventListener('click', () => startGame(difficult));
     shuffle(dublicateCardsIcons);
-    dublicateCardsIcons.forEach((icon) => gameTable.appendChild(createGameCard('question-circle', icon)));
+    dublicateCardsIcons.forEach((icon) => gameTable.appendChild(createGameCard(icon)));
 
     gameSection.append(gameTable, restartBtn);
 

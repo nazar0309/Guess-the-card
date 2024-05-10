@@ -22,7 +22,7 @@ export const dublicateArray = (array) => array.reduce((res, current) => res.conc
 
 
 export const createIconsArray = (initialCount) => {
-    const cardsIcons = ['bitcoin', 'eur', 'usd', 'film', 'won', 'money', 'gg-circle', 'ils'];
+    const cardsIcons = ['assets/images/cards_capitan-america.jpg', 'assets/images/cards_deadpool.jpg', 'assets/images/cards_hulk.jpg', 'assets/images/cards_iron-man.jpg', 'assets/images/cards_spider-man.jpg', 'assets/images/cards_thor.jpg', 'assets/images/cards_wolverine.jpg', 'assets/images/cards_doctor-strange.jpg'];
     
     switch(initialCount) {
         case 10:

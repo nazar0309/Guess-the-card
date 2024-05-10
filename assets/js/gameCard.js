@@ -5,15 +5,16 @@
 
 
 
-export const createGameCard = (defaultIcon, flippedIcon) => {
+export const createGameCard = (flippedIcon) => {
     const card = document.createElement('div'); 
     card.classList.add('game-card');
 
-    const notFlippedCardI = document.createElement('i');
-    const FlippedCardI = document.createElement('i');
+    const notFlippedCardI = document.createElement('img');
+    const FlippedCardI = document.createElement('img');
 
-    notFlippedCardI.classList.add('fas', `fa-${flippedIcon}`);
-    FlippedCardI.classList.add('fas', `fa-${defaultIcon}`);
+    notFlippedCardI.src = 'assets/images/card_back.jpg';
+    FlippedCardI.src = flippedIcon;
+    
     card.append(FlippedCardI, notFlippedCardI);
     return card;
 

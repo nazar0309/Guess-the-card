@@ -65,8 +65,8 @@ body {
     border: none;
     margin: 0;
     padding: 15px 20px; /* Moved padding here */
-    background-color: aqua;
-    color: #222;
+    background-color: #9B1003;
+    color: #fff;
     transition: background-color .3s ease-in-out, color .3s ease-in-out; /* Fixed typo */
 }
 
@@ -74,14 +74,10 @@ body {
     margin-bottom: 10px;
 }
 
-.game-menu_button:hover {
-    background-color: #222;
-    color: #fff;
-}
 
 .game-menu_button:hover {
     transition: background-color .3s ease-in-out, color .3s ease-in-out;
-    background-color: #222;
+    background-color: #B90E0A;
     color: #fff;
 }
 
@@ -110,6 +106,11 @@ body {
     height: 100%;
     border-radius: 5px;
 }
+.game-card:hover {
+    box-shadow: 5px 5px 10px white;
+
+}
+
 
 .game-card img {
     display: none;
@@ -131,4 +132,22 @@ body {
 
 .game-card.flip img + img {
     display: none;
+}
+
+.game-card.successfully {
+    background: greenyellow;
+}
+
+
+
+.restart-btn {
+    width: 100px;
+    height: 50px;
+    background-color: #9B1003;
+    color: #fff;
+    font-size: 22px;
+}
+
+.restart-btn:hover {
+    box-shadow: 5px 5px 10px black;
 }

@@ -44,7 +44,7 @@ body {
     padding-top: 50px;
 }
 
-.game-section_container {
+.game-section__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +135,7 @@ body {
 }
 
 .game-card.successfully {
-    background: greenyellow;
+    box-shadow: 0 0 10px 5px  greenyellow !important;
 }
 
 
@@ -151,3 +151,5 @@ body {
 .restart-btn:hover {
     box-shadow: 5px 5px 10px black;
 }
+
+

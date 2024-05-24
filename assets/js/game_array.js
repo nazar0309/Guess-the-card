@@ -47,3 +47,23 @@ export const createGameCard = (flippedImg) => {
     card.append(flippedCard, notFlippedCard);
     return card;
 }
+
+
+export const createTimer = () => { 
+    const timer = document.createElement('div');
+    timer.classList.add('timer');
+    timer.innerHTML = '00:00';
+
+    let seconds = 0;
+
+    const updateTimer = () => {
+        seconds++;
+
+        const formattedSeconds = String(seconds);
+        timer.innerHTML = `Time: ${formattedSeconds} seconds`;
+    };
+
+    setInterval(updateTimer, 1000);
+
+    return timer;
+}

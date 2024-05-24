@@ -1,10 +1,11 @@
 
-import {shuffle} from './game_array.js';
+import {createTimer, shuffle} from './game_array.js';
 import {duplicateArray} from './game_array.js';
 import {createImagesArray} from './game_array.js';
 import {createGameCard} from './game_array.js';
 import {createGameMenu} from './script.js';
 import {showResults} from './results.js';
+
 
 
 
@@ -22,7 +23,9 @@ export const startGame = (difficult) => {
     const cardsImages = createImagesArray(difficult);
     const duplicatedCardsImages = duplicateArray(cardsImages);
     const restartBtn = document.createElement('button');
+    const timer = createTimer();
 
+    timer.innerHTML = 'Time: 0 seconds';
     gameSection.innerHTML = '';
     restartBtn.textContent = 'Restart game';
     gameTable.classList.add('game-table');
@@ -32,7 +35,7 @@ export const startGame = (difficult) => {
 
     duplicatedCardsImages.forEach(image => gameTable.append(createGameCard(image)));
 
-    gameSection.append(gameTable, restartBtn);
+    gameSection.append(gameTable, restartBtn, timer);
 
     const cards = document.querySelectorAll('.game-card');
 
@@ -78,7 +81,6 @@ export const startGame = (difficult) => {
             }
 
             if (Array.from(cards).every(card => card.className.includes('flip'))) {
-                document.querySelector('.confetti').innerHTML = confetti;
                 showResults(difficult);
             }
         }

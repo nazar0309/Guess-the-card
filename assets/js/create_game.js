@@ -1,10 +1,10 @@
-
-import {createTimer, shuffle} from './game_array.js';
+import {shuffle} from './game_array.js';
 import {duplicateArray} from './game_array.js';
 import {createImagesArray} from './game_array.js';
 import {createGameCard} from './game_array.js';
 import {createGameMenu} from './script.js';
 import {showResults} from './results.js';
+import {createTimer} from './game_array.js';
 
 
 
@@ -13,7 +13,7 @@ import {showResults} from './results.js';
 
 
 // Define the startGame function
-export const startGame = (difficult) => {
+export const startGame = (difficult, time) => {
     let firstCard = null;
     let secondCard = null;
     let clickable = true;
@@ -25,7 +25,7 @@ export const startGame = (difficult) => {
     const restartBtn = document.createElement('button');
     const timer = createTimer();
 
-    timer.innerHTML = 'Time: 0 seconds';
+    timer.innerHTML = '00:00';
     gameSection.innerHTML = '';
     restartBtn.textContent = 'Restart game';
     gameTable.classList.add('game-table');
@@ -81,8 +81,11 @@ export const startGame = (difficult) => {
             }
 
             if (Array.from(cards).every(card => card.className.includes('flip'))) {
-                showResults(difficult);
+                
+                showResults(difficult, timer.innerHTML);
             }
         }
     }));
-}
+} 
+
+

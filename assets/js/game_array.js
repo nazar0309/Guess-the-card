@@ -1,4 +1,3 @@
-
 // Create a function that shuffles the array
 export const shuffle = (array) => {
     let currentIndex = array.length;
@@ -58,9 +57,9 @@ export const createTimer = () => {
 
     const updateTimer = () => {
         seconds++;
-
+        
         const formattedSeconds = String(seconds);
-        timer.innerHTML = `Time: ${formattedSeconds} seconds`;
+        timer.innerHTML = `${formattedSeconds}`;
     };
 
     setInterval(updateTimer, 1000);

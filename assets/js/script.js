@@ -1,5 +1,3 @@
-
-
 import { startGame } from "./create_game.js";
 
 

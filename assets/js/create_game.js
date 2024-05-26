@@ -12,6 +12,7 @@ import {createTimer} from './game_array.js';
 
 
 
+
 // Define the startGame function
 export const startGame = (difficult, time) => {
     let firstCard = null;
@@ -83,6 +84,8 @@ export const startGame = (difficult, time) => {
             if (Array.from(cards).every(card => card.className.includes('flip'))) {
                 
                 showResults(difficult, timer.innerHTML);
+            
+
             }
         }
     }));

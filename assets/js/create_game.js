@@ -1,15 +1,10 @@
-import {shuffle} from './game_array.js';
-import {duplicateArray} from './game_array.js';
-import {createImagesArray} from './game_array.js';
-import {createGameCard} from './game_array.js';
-import {createGameMenu} from './script.js';
-import {showResults} from './results.js';
-import {createTimer} from './game_array.js';
-
-
-
-
-
+import { shuffle } from './game_array.js';
+import { duplicateArray } from './game_array.js';
+import { createImagesArray } from './game_array.js';
+import { createGameCard } from './game_array.js';
+import { createGameMenu } from './script.js';
+import { showResults } from './results.js';
+import { createTimer } from './game_array.js';
 
 
 
@@ -40,8 +35,12 @@ export const startGame = (difficult, time) => {
 
     const cards = document.querySelectorAll('.game-card');
 
-    restartBtn.addEventListener('click', createGameMenu);
+    let confettiInterval;
 
+    restartBtn.addEventListener('click', () => {
+        createGameMenu();
+        clearInterval(confettiInterval);
+    });
 
     cards.forEach((card, index) => card.addEventListener('click', () => {
         if (clickable && !card.classList.contains('successfully')) {
@@ -82,13 +81,10 @@ export const startGame = (difficult, time) => {
             }
 
             if (Array.from(cards).every(card => card.className.includes('flip'))) {
-                
-                showResults(difficult, timer.innerHTML);
-            
-
+                confettiInterval = showResults(difficult, timer.innerHTML);
             }
         }
     }));
-} 
+}
 
 

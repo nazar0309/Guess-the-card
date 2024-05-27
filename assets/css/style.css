@@ -109,6 +109,7 @@ body {
 }
 .game-card:hover {
     box-shadow: 0 0 10px 5px white;
+    cursor: grab;
 
 }
 
@@ -141,7 +142,7 @@ body {
 
 
 
-.restart-btn {
+.restart-btn, .restart-btn2 {
     width: 100px;
     height: 50px;
     background-color: #a42014;
@@ -151,15 +152,16 @@ body {
 
 .restart-btn2 {
     margin-top: 20px;
-    width: 100px;
-    height: 50px;
-    background-color: #a42014;
-    color: #fff;
-    font-size: 18px;
 }
 
 .restart-btn:hover {
     box-shadow: 0 0 10px 5px #fff;
+    cursor: pointer;
+}
+
+.restart-btn2:hover {
+    box-shadow: 0 0 10px 5px #fff;
+    cursor: pointer;
 }
 
 .results {
@@ -172,6 +174,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 
 }
 
@@ -200,4 +203,37 @@ body {
     width: 300px;
     height: 100px
 }
+
+
+@media (max-width: 768px) {
+    .game-card {
+        width: 35px;
+        height: 95px;
+    }
+    .results {
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+        font-size: 10px;
+    }
+
+    .results h2 {
+        font-size: 25px;
+    }
+
+    .results button {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .header_title {
+        font-size: 25px;
+    }
+    
+
+}
+
+
+
 

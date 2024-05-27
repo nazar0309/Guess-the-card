@@ -18,20 +18,23 @@ export const startGame = (difficult, time) => {
     const gameTable = document.createElement('div');
     const cardsImages = createImagesArray(difficult);
     const duplicatedCardsImages = duplicateArray(cardsImages);
+    const buttonsdiv = document.createElement('div');
     const restartBtn = document.createElement('button');
     const timer = createTimer();
 
-    timer.innerHTML = '00:00';
+    timer.innerHTML = '0 seconds';
     gameSection.innerHTML = '';
     restartBtn.textContent = 'Restart game';
     gameTable.classList.add('game-table');
     restartBtn.classList.add('restart-btn');
+    buttonsdiv.classList.add('buttons-div');
+    buttonsdiv.append(timer, restartBtn);
 
     shuffle(duplicatedCardsImages);
 
     duplicatedCardsImages.forEach(image => gameTable.append(createGameCard(image)));
 
-    gameSection.append(gameTable, restartBtn, timer);
+    gameSection.append(gameTable, buttonsdiv);
 
     const cards = document.querySelectorAll('.game-card');
 

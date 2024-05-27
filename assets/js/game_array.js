@@ -51,7 +51,7 @@ export const createGameCard = (flippedImg) => {
 export const createTimer = () => { 
     const timer = document.createElement('div');
     timer.classList.add('timer');
-    timer.innerHTML = '00:00';
+    timer.innerHTML = '0';
 
     let seconds = 0;
 
@@ -59,7 +59,7 @@ export const createTimer = () => {
         seconds++;
         
         const formattedSeconds = String(seconds);
-        timer.innerHTML = `${formattedSeconds}`;
+        timer.innerHTML = `${formattedSeconds} seconds`;
     };
 
     setInterval(updateTimer, 1000);

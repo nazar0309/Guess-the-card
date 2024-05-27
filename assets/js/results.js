@@ -18,7 +18,7 @@ export const showResults = (difficulty, elapsedSeconds) => {
     const gameSection = document.querySelector('.game-section__container');
     const restartButton = document.createElement('button');
     restartButton.textContent = 'Restart game';
-    restartButton.classList.add('restart-btn');
+    restartButton.classList.add('restart-btn2');
     restartButton.addEventListener('click', () => {
         createGameMenu();
         clearInterval(confettiInterval);
@@ -31,7 +31,7 @@ export const showResults = (difficulty, elapsedSeconds) => {
     resultsDiv.innerHTML = `
         <h2 class="results__title">Congratulations!</h2>
         <p class="results__text">You have completed the game with ${difficulty} cards.</p>
-        <p class="results__text">Your time was: ${elapsedSeconds} seconds.</p>
+        <p class="results__text">Your time was: ${elapsedSeconds}</p>
     `;
 
     resultsDiv.appendChild(restartButton);

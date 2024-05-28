@@ -41,55 +41,51 @@ Welcome to my <a href="https://nazar0309.github.io/Guess-the-card/">homepage</a>
 
 ## Site Overview
 
-Fiorente Restaurant is a website that showcases the offerings and ambiance of a fictional Italian luxury dining establishment. It provides information about the restaurant's menu, working hours, chefs, reservation options, and contact details.
+Guess the Card is a fun and interactive memory card game. Players flip and match pairs of cards within a grid, choosing from multiple difficulty levels. The game tracks the time taken to complete each round and allows players to restart and try again.
 
 ## Planning Stage
 
 ### Idea
-
-The idea behind Fiorente Restaurant is to create an online platform that entices visitors with the allure of fine Italian cuisine and luxury dining experiences.
+The idea behind **Guess the Card** is to create an engaging and challenging memory game where players flip and match pairs of cards. This game aims to entertain users of all ages while also improving their memory and concentration skills. 
 
 ### Site Aims
-
-- To attract potential customers by presenting an enticing menu and appealing visuals.
-- To provide essential information such as working hours, reservation options, and contact details.
-- To showcase the expertise of the restaurant's chefs and the quality of its culinary offerings.
+- To provide an interactive and fun memory game experience.
+- To offer multiple difficulty levels to cater to different skill levels.
+- To ensure the game is responsive and accessible on various devices.
+- To track and display the player's time to add a competitive element.
 
 ### Target Audience
-
-The target audience includes food enthusiasts, individuals interested in fine dining experiences, tourists visiting the area, and local residents seeking upscale dining options.
+- **Casual Gamers**: Individuals looking for a quick and fun game to play in their free time.
+- **Children and Families**: Kids can enjoy the game while improving their memory skills.
+- **Puzzle Enthusiasts**: People who enjoy brain games and challenges.
+- **Educators**: Teachers and parents can use the game as a fun educational tool.
 
 ### Site Goals
-
-- Increase brand awareness for Fiorente Restaurant.
-- Drive online reservations and inquiries.
-- Showcase the restaurant's unique ambiance and culinary offerings.
+- **User Engagement**: To keep users engaged with an intuitive and interactive game interface.
+- **Ease of Use**: To design a user-friendly site that is easy to navigate.
+- **Accessibility**: To ensure the game is playable on various devices, including desktops, tablets, and smartphones.
+- **Performance Tracking**: To incorporate a timer to track how quickly players complete the game.
 
 ### How Will I Achieve My Goals
-
-- By creating a visually appealing website with high-quality images and engaging content.
-- By ensuring easy navigation and accessibility of essential information.
-- By implementing online reservation functionality and contact forms to facilitate communication with potential customers.
+- **Interactive Design**: Implement a visually appealing and interactive design using HTML, CSS, and JavaScript.
+- **Responsive Layout**: Use responsive design principles and media queries to ensure the site works well on all devices.
+- **Clear Instructions**: Provide clear instructions and intuitive gameplay to make it easy for users of all ages to play.
+- **Performance Metrics**: Include a timer and result display to track and show the player's performance.
 
 ## Site Structure
+- **Home Page**: Introduction to the game with a start button to choose the difficulty level.
+- **Game Page**: The main game interface where users can play the memory game, see the timer, and restart the game.
+- **Results Page**: Displays the player's time and offers options to restart or choose a new difficulty level.
 
-The website consists of the following sections:
-- Home
-- Menu
-- Working Hours
-- Chefs
-- Reservation
-- About Us
-- Contacts
 
 ## Wireframes
 
 <h3>Desktop wireframes:</h3>
-<img src="/assets/read_me_images/wireframe_1.png"><img src="/assets/read_me_images/wireframe_2.png"><img src="/assets/read_me_images/wireframe_3.png">
+<img src="/assets/readme_images/first_wireframe.png"><img src="/assets/readme_images/second_wireframe.png"><img src="/assets/readme_images/third_wireframe.png">
 
 
 <h3>Mobile wireframes:</h3>
-<img src="/assets/read_me_images/wireframe_4.png"><img src="/assets/read_me_images/wireframe_5.png"><img src="/assets/read_me_images/wireframe_6.png">
+<img src="/assets/readme_images/fourth_wireframe.png"><img src="/assets/readme_images/fifth_wireframe.png"><img src="/assets/readme_images/sixth_wireframe.png">
 
 
 

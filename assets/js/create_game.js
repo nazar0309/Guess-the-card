@@ -9,7 +9,7 @@ import { createTimer } from './game_array.js';
 
 
 // Define the startGame function
-export const startGame = (difficult, time) => {
+export const startGame = (difficult) => {
     let firstCard = null;
     let secondCard = null;
     let clickable = true;

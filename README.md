@@ -145,6 +145,9 @@ These features combine to provide an engaging, user-friendly, and visually appea
 <a href="https://code.visualstudio.com/">Visual Studio Code</a> - used to host and edit the website.<br>
 <a href="https://github.com/">Github</a> - used to deploy the website.<br>
 <a href="https://balsamiq.com/">Balsamiq</a> - used to create the wireframes.<br>
+<a href="https://www.javascript.com/">JavaScript</a> - adds interactivity and functionality to the website, including game logic, animations, and dynamic content updates.<br>
+
+
 
 # Testing
 
@@ -152,15 +155,17 @@ These features combine to provide an engaging, user-friendly, and visually appea
 ## Manual testing
 
 Various testing methods were employed to ensure the functionality, responsiveness, and compatibility of the website.<br>
-Each page was tested manually to check if every refference in navigation highlights correct way.<br> Also I have checked if the reservation form works and submits data to the server.<br> According to navigation, links transfer us to the correct path on each page.
+The Guess the card game was tested manually to check if every function works correctly without issues.<br> I have manually checked if buttons to choose difficulty works, starting the game with correct ammount of cards.<br> During the game, function to flip cards (only 2 cards should be flipped in a row) and all the functions that operate cards work perfect.<br> In the results container, the main function shows the timer and the difficulty level that was choosen with congratulations and confetti animation. 
 
 
 
 ## Main issues
 
-One of th biggest mistake was that I was using em for font size. It caused lots of issues with my code, mostly with responsive design.<br>
-Then my mentor Mitko reccomended me to use absolute units of measurement. I tried pixels and the problem was solved.<br>
-Also I was wondering how to make 2 round lines around the menu link in the header. Using google chrome, i have founded transform-rotate method and used it.<br>
+It was really challenging to figure out the functions that operates with array of cards(shuffle, dublicate).
+<br>
+Also I have spent lots of time to transmit the number of seconds to showresults function so that it shows them. But using additional sources i have solved that issues.
+<br>
+
 
 
 ## Validation
@@ -168,15 +173,12 @@ Also I was wondering how to make 2 round lines around the menu link in the heade
 ### HTML validation via <a href="https://validator.w3.org/nu/">HTML-validator</a>
 
 index.html:<br>
-<img src="/assets/read_me_images/validation_3.png">
-menu.html:<br>
-<img src="/assets/read_me_images/validation_2.png">
-aboutus.html:<br>
-<img src="/assets/read_me_images/validation_1.png">
+<img src="/assets/readme_images/html_validation.png">
 
 ### CSS validation via <a href="https://jigsaw.w3.org/css-validator/">CSS-validator</a>
 style.css:<br>
 <img src="/assets/read_me_images/css_validation.png">
+
 
 ## Responsiveness Test
 
@@ -191,22 +193,22 @@ The website was tested on different devices and screen sizes to ensure a consist
 ### Photos from Responsiveness Testing
 
 Ipad Mini:<br>
-<img src="/assets/read_me_images/ipad_mini_test.png">
+<img src="/assets/readme_images/IpadMini.png">
 
 Ipad Pro:<br>
-<img src="/assets/read_me_images/ipad_pro_test.png">
+<img src="/assets/readme_images/IpadPro.png">
 
-Iphone 12 Pro:<br>
-<img src="/assets/read_me_images/iphone_12_pro_test.png">
+Iphone X<br>
+<img src="/assets/readme_images/IphoneX.png">
 
-Iphone SE:<br>
-<img src="/assets/read_me_images/iphone_se_test.png">
+Iphone 5/5s<br>
+<img src="/assets/readme_images/Iphone5.png">
 
 Laptop L:<br>
-<img src="/assets/read_me_images/laptop_L_test.png">
+<img src="/assets/readme_images/LaptopL.png">
 
 2K Screens:<br>
-<img src="/assets/read_me_images/2k_screen_test.png">
+<img src="/assets/readme_images/2K.png">
 
 
 

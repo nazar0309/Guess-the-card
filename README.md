@@ -155,16 +155,16 @@ These features combine to provide an engaging, user-friendly, and visually appea
 ## Manual testing
 
 Various testing methods were employed to ensure the functionality, responsiveness, and compatibility of the website.<br>
-The Guess the card game was tested manually to check if every function works correctly without issues.<br> I have manually checked if buttons to choose difficulty works, starting the game with correct ammount of cards.<br> During the game, function to flip cards (only 2 cards should be flipped in a row) and all the functions that operate cards work perfect.<br> In the results container, the main function shows the timer and the difficulty level that was choosen with congratulations and confetti animation. 
+
+<img src="/assets/readme_images/Test_1.png">
+
 
 
 
 ## Main issues
 
-It was really challenging to figure out the functions that operates with array of cards(shuffle, dublicate).
-<br>
-Also I have spent lots of time to transmit the number of seconds to showresults function so that it shows them. But using additional sources i have solved that issues.
-<br>
+
+<img src="/assets/readme_images/Test_2.png">
 
 
 

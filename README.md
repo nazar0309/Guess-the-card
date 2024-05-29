@@ -177,7 +177,7 @@ index.html:<br>
 
 ### CSS validation via <a href="https://jigsaw.w3.org/css-validator/">CSS-validator</a>
 style.css:<br>
-<img src="/assets/read_me_images/css_validation.png">
+<img src="/assets/readme_images/css_validation.png">
 
 
 ## Responsiveness Test

@@ -1,4 +1,4 @@
-# Fiorente Restaurant
+# Guess The Card
 
 Welcome to my <a href="https://nazar0309.github.io/Guess-the-card/">homepage</a>
 
@@ -92,89 +92,51 @@ The idea behind **Guess the Card** is to create an engaging and challenging memo
 
 ## Typography
 
-For this website, I have utilized the following fonts:
+For this website, I have utilized the following font:
 
-- **Vollkorn SC**: This font is primarily used for headings and titles. It offers a sophisticated and elegant appearance, enhancing the overall aesthetic of the website.
-
-- **Cormorant Garamond**: This font is employed for body text and paragraphs. It provides readability and a classic feel to the content, ensuring a pleasant reading experience for users.
-
-Additionally, Font Awesome has been integrated into the website to incorporate icons and enhance visual elements.
+- **Arial, Helvetica, sans-serif:** Defines a prioritized list of font families to be used. If Arial is available, it will be used first. If Arial is not available, Helvetica will be used. If neither Arial nor Helvetica are available, the browser will use any available sans-serif font. 
 
 ## Color Scheme
 
 The main colors used throughout the website, along with their RGBA codes, are as follows:
 
-- **#2E2E34**: This dark gray color serves as the background for most sections of the website. Its RGBA code is `rgba(46, 46, 52, 1)`.
-<img src="/assets/read_me_images/color_scheme_1.png">
+- **#9B1003**: This dark red color was used for main buttons to choose difficulty with cards `rgb(155, 16, 3)`.
+<img src="/assets/readme_images/first_color.png">
 
-- **#6F5748**: A warm brownish color used for accents, such as borders and certain text elements. Its RGBA code is `rgba(111, 87, 72, 1)`.
-<img src="/assets/read_me_images/color_scheme_2.png">
+- **#980f04**: This another dark red color was used for background color in results container `rgb(152, 15, 4)`.
+<img src="/assets/readme_images/second_color.png">
 
-- **#E9E9E9**: A light gray color used for text and other elements to provide contrast against the dark background. Its RGBA code is `rgba(233, 233, 233, 1)`.
-<img src="/assets/read_me_images/color_scheme_3.png">
+- **#ffffff**: This default white color was used for font `rgb(255, 255, 155)`.
+<img src="/assets/readme_images/third_color.png">
 These colors are carefully chosen to create a cohesive and visually appealing design scheme.
 
 
 
-# Features 
+
+
+# Features
 
 ### Navigation Menu
+- **Dynamic Difficulty Selection:** Users can choose the difficulty level of the game by selecting the number of cards they wish to play with. This allows for a customizable gaming experience.
+<img src="/assets/readme_images/features_1.png">
 
-A responsive navigation menu allows users to easily navigate between different sections of the website.
+### Game Section
+- **Card Flip Animation:** Cards flip with a smooth animation when clicked, revealing the images underneath. This adds an engaging visual effect to the game.
+- **Matching Logic:** The game includes logic to detect matching pairs of cards. Successfully matched pairs remain flipped, while unmatched pairs flip back over.
+- **Restart Button:** A restart button allows users to reset the game at any time, enabling a fresh start without reloading the page.
+- **Timer:** A built-in timer tracks the duration of the game, adding an element of challenge and allowing users to track their performance.
+<img src="/assets/readme_images/features_2.png">
 
-Burger-Icon nav-bar:
-<img src="/assets/read_me_images/nav_bar_1.png"><br>
-Burger-Icon nav-bar with navigation links open:
-<img src="/assets/read_me_images/nav_bar_2.png"><br>
-Expanded Nav-bar:
-<img src="/assets/read_me_images/nav_bar_3.png"><br>
-
-
-### Fiorente Restaurant Homepage
-
-The homepage features a stunning hero image, welcoming visitors to the restaurant and setting the tone for the dining experience.
-<img src="/assets/read_me_images/homepage_readme.png">
-
-
-### Menu
-
-The menu section showcases the restaurant's culinary offerings, including appetizers, entrees, desserts, and beverages.
-<img src="/assets/read_me_images/menu_section_1.png">
-<img src="/assets/read_me_images/menu_section_2.png">
-<img src="/assets/read_me_images/menu_section_3.png">
-<img src="/assets/read_me_images/menu_section_4.png">
+### Visual Design
+- **Confetti Animation:** Upon successfully completing the game, a confetti animation is triggered to celebrate the achievement.
+- **Responsive Design:** The website layout adjusts seamlessly across various device sizes, ensuring an optimal user experience on desktops, tablets, and mobile devices.
+<img src="/assets/readme_images/features_3.png">
 
 
 
 
-### Working Hours
+These features combine to provide an engaging, user-friendly, and visually appealing game experience on the "Guess the Card" website.
 
-This section provides information about the restaurant's operating hours for different menus.
-<img src="/assets/read_me_images/working_hours.png">
-
-
-### Chefs
-
-Profiles of the restaurant's chefs, highlighting their expertise and culinary specialties.
-<img src="/assets/read_me_images/chefs_readme.png">
-
-
-### Reservation
-
-An online reservation form allows users to book a table directly from the website.
-<img src="/assets/read_me_images/reservation_readme.png">
-
-### About Us
-
-Information about the history, philosophy, and values of Fiorente Restaurant.
-<img src="/assets/read_me_images/about_us_1.png">
-<img src="/assets/read_me_images/about_us_2.png">
-
-
-### Contacts
-
-Contact details, including address, phone number, email, and social media links.
-<img src="/assets/read_me_images/contacts_readme.png">
 
 # Technologies Used
 

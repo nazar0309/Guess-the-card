@@ -151,15 +151,12 @@ These features combine to provide an engaging, user-friendly, and visually appea
 ## Manual testing
 
 Various testing methods were employed to ensure the functionality, responsiveness, and compatibility of the website.<br>
-
 <img src="/assets/readme_images/test_1.png">
 
 
 
 
 ## Fix bugs 
-
-
 <img src="/assets/readme_images/test_2.png">
 
 

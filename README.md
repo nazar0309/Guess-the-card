@@ -151,13 +151,13 @@ These features combine to provide an engaging, user-friendly, and visually appea
 ## Manual testing
 
 Various testing methods were employed to ensure the functionality, responsiveness, and compatibility of the website.<br>
-<img src="/assets/readme_images/test_1.png">
+<img src="/assets/readme_images/test_1.jpg">
 
 
 
 
-## Fix bugs 
-<img src="/assets/readme_images/test_2.png">
+## Fix bugs <br>
+<img src="/assets/readme_images/test_2.jpg">
 
 
 
@@ -211,7 +211,7 @@ Laptop L:<br>
 <img src="/assets/readme_images/laptop_l.png">
 
 2K Screens:<br>
-<img src="/assets/readme_images/2k.png">
+<img src="/assets/readme_images/2k.jpg">
 
 
 

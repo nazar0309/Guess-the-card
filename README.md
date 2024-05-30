@@ -18,14 +18,12 @@ Welcome to my <a href="https://nazar0309.github.io/Guess-the-card/">homepage</a>
 - [Typography](#typography)
 - [Color Scheme](#color-scheme)
 - [Features](#features)
-  - [Navigation Menu](#navigation-menu)
-  - [Fiorente Restaurant Homepage](#fiorente-restaurant-homepage)
-  - [Menu](#menu)
-  - [Working Hours](#working-hours)
-  - [Chefs](#chefs)
-  - [Reservation](#reservation)
-  - [About Us](#about-us)
-  - [Contacts](#contacts)
+  - [Navigation Menu](#main-menu)
+  - [Game Section](#game-section)
+  - [Visual Design](#visual-design)
+  
+
+  
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   - [Repository Problems](#repository-problems)
@@ -116,7 +114,7 @@ These colors are carefully chosen to create a cohesive and visually appealing de
 
 # Features
 
-### Navigation Menu
+### Main Menu
 - **Dynamic Difficulty Selection:** Users can choose the difficulty level of the game by selecting the number of cards they wish to play with. This allows for a customizable gaming experience.
 <img src="/assets/readme_images/features_1.png">
 

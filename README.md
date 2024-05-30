@@ -154,15 +154,15 @@ These features combine to provide an engaging, user-friendly, and visually appea
 
 Various testing methods were employed to ensure the functionality, responsiveness, and compatibility of the website.<br>
 
-<img src="/assets/readme_images/Test_1.png">
+<img src="/assets/readme_images/test_1.png">
 
 
 
 
-## Main issues
+## Fix bugs 
 
 
-<img src="/assets/readme_images/Test_2.png">
+<img src="/assets/readme_images/test_2.png">
 
 
 
@@ -179,13 +179,13 @@ style.css:<br>
 
 ### Java Script validation via <a href="https://jshint.com/">JS Hint</a>
 script.js:<br>
-<img src="/assets/readme_images/js_validate1.png">
+<img src="/assets/readme_images/js_validate_1.png">
 create_game.js:<br>
-<img src="/assets/readme_images/js_validate2.png">
+<img src="/assets/readme_images/js_validate_2.png">
 results.js:<br>
-<img src="/assets/readme_images/js_validate3.png">
+<img src="/assets/readme_images/js_validate_3.png">
 game_array.js:<br>
-<img src="/assets/readme_images/js_validate4.png">
+<img src="/assets/readme_images/js_validate_4.png">
 
 
 ## Responsiveness Test
@@ -201,22 +201,22 @@ The website was tested on different devices and screen sizes to ensure a consist
 ### Photos from Responsiveness Testing
 
 Ipad Mini:<br>
-<img src="/assets/readme_images/IpadMini.png">
+<img src="/assets/readme_images/ipad_mini.png">
 
 Ipad Pro:<br>
-<img src="/assets/readme_images/IpadPro.png">
+<img src="/assets/readme_images/ipad_pro.png">
 
 Iphone X<br>
-<img src="/assets/readme_images/IphoneX.png">
+<img src="/assets/readme_images/iphone_x.png">
 
 Iphone 5/5s<br>
-<img src="/assets/readme_images/Iphone5.png">
+<img src="/assets/readme_images/iphone_5.png">
 
 Laptop L:<br>
-<img src="/assets/readme_images/LaptopL.png">
+<img src="/assets/readme_images/laptop_l.png">
 
 2K Screens:<br>
-<img src="/assets/readme_images/2K.png">
+<img src="/assets/readme_images/2k.png">
 
 
 

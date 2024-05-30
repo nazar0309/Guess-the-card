@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guess The Card</title>
+    <!-- Include Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon icons -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/readme_images/iron_man16.jpg">   
     <link rel="icon" type="image/png" sizes="32x32" href="assets/readme_images/iron_man32">   
-   
 </head>
 <body>
     <div class="game-content">
+        <!-- Header section with a container for styling -->
         <header class="header">
             <div class="container">
-                <h1 class ="header_title">Guess The Card</h1>
+                <h1 class="header_title">Guess The Card</h1>
             </div>
         </header>
         <main>
+            <!-- Main game section with a container for the game cards and controls -->
             <section class="game-section">
                 <div class="container game-section__container"></div>
             </section>
-                
         </main>
     </div>
+    <!-- Div for confetti animation -->
     <div class="confetti"></div>
-    <script type = "module" src="assets/js/script.js"></script>
+    <!-- Include the main JavaScript file as a module -->
+    <script type="module" src="assets/js/script.js"></script>
+    <!-- Include the confetti library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-
 </body>
 </html>

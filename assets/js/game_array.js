@@ -47,7 +47,7 @@ export const createGameCard = (flippedImg) => {
     return card;
 };
 
-
+// Define the createTimer function that creates a timer
 export const createTimer = () => { 
     const timer = document.createElement('div');
     timer.classList.add('timer');

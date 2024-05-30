@@ -1,5 +1,8 @@
 import { createGameMenu } from './script.js';
 
+
+// Define the showResults function that displays the results of the game in a block with confetti animation
+
 export const showResults = (difficulty, elapsedSeconds) => {
     // Trigger the confetti animation
     const confettiInterval = setInterval(() => {

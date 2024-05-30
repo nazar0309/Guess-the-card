@@ -1,3 +1,4 @@
+/* Apply universal reset to all elements, before and after pseudo-elements */
 *,
 *::before,
 *::after {
@@ -6,44 +7,50 @@
     box-sizing: border-box;
 }
 
+/* Body styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/marvel_bg.jpg');
+    background-image: url('../images/marvel_bg.jpg'); /* Set background image */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;
-  
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
 }
 
+/* Main content wrapper */
 .game-content {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 10; /* Ensure the content is above the background */
 }
 
+/* Container for centralizing content */
 .container {
     max-width: 1250px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
+/* Header styling */
 .header {
     padding: 15px 0;
 }
 
+/* Header title styling */
 .header_title {
     text-align: center;
     margin-top: 10px;
     color: #fff;
 }
 
+/* Game section styling */
 .game-section {
     padding-top: 50px;
 }
 
+/* Container within game section */
 .game-section__container {
     display: flex;
     flex-direction: column;
@@ -51,37 +58,38 @@ body {
     justify-content: center;
 }
 
+/* Game menu title styling */
 .game-menu_title {
-   
     margin-bottom: 60px;
     text-align: center;
     color: #fff;
 }
 
+/* Game menu button styling */
 .game-menu_button {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     border: none;
-    margin: 0;
-    padding: 15px 20px; /* Moved padding here */
+    padding: 15px 20px;
     background-color: #9B1003;
     color: #fff;
-    transition: background-color .3s ease-in-out, color .3s ease-in-out; /* Fixed typo */
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
     box-shadow: 0 0 10px 5px #fff;
 }
 
+/* Spacing between buttons */
 .game-menu_button:not(:last-child) {
     margin-bottom: 10px;
 }
 
-
+/* Button hover effect */
 .game-menu_button:hover {
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
     background-color: #B90E0A;
     color: #fff;
 }
 
+/* Game table styling */
 .game-table {
     max-width: 500px;
     display: inline-flex;
@@ -89,6 +97,7 @@ body {
     justify-content: center;
 }
 
+/* Game card styling */
 .game-card {
     width: 50px;
     height: 120px;
@@ -102,46 +111,46 @@ body {
     margin: 1%;
 }
 
+/* Game card image styling */
 .game-card img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    display: none; /* Hide all images initially */
 }
+
+/* Hover effect for game cards */
 .game-card:hover {
     box-shadow: 0 0 10px 5px white;
     cursor: grab;
-
 }
 
-
-.game-card img {
-    display: none;
-    
-}
-
+/* Display the second image in each card */
 .game-card img + img {
     display: block;
 }
 
-
+/* Flip effect for game cards */
 .game-card.flip {
     transform: perspective(100px) rotateY(180deg);
 }
 
+/* Show the first image when the card is flipped */
 .game-card.flip img {
     display: block;
 }
 
+/* Hide the second image when the card is flipped */
 .game-card.flip img + img {
     display: none;
 }
 
+/* Successfully matched card styling */
 .game-card.successfully {
-    box-shadow: 0 0 10px 5px  #B90E0A !important;
+    box-shadow: 0 0 10px 5px #B90E0A !important;
 }
 
-
-
+/* Restart button styling */
 .restart-btn, .restart-btn2 {
     width: 100px;
     height: 50px;
@@ -150,39 +159,39 @@ body {
     font-size: 18px;
 }
 
+/* Additional styling for the second restart button */
 .restart-btn2 {
     margin-top: 20px;
 }
 
-.restart-btn:hover {
+/* Hover effect for restart buttons */
+.restart-btn:hover, .restart-btn2:hover {
     box-shadow: 0 0 10px 5px #fff;
     cursor: pointer;
 }
 
-.restart-btn2:hover {
-    box-shadow: 0 0 10px 5px #fff;
-    cursor: pointer;
-}
-
+/* Results modal styling */
 .results {
     color: white;
     box-shadow: 0 0 40px 15px white;
     width: 400px;
     height: 400px;
-    background-color: #9B1003; opacity: 0.95;
+    background-color: #9B1003;
+    opacity: 0.95;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-
 }
 
+/* Results title styling */
 .results__title {
     font-size: 35px;
     margin-bottom: 10px;
 }
 
+/* Timer styling */
 .timer {
     box-shadow: 0 0 10px 3px white;
     display: flex;
@@ -195,16 +204,16 @@ body {
     font-size: 18px;
 }
 
+/* Buttons container styling */
 .buttons-div {
-  
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 300px;
-    height: 100px
+    height: 100px;
 }
 
-
+/* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .game-card {
         width: 35px;
@@ -216,22 +225,17 @@ body {
         height: 300px;
         font-size: 10px;
     }
-
     .results h2 {
         font-size: 25px;
     }
-
     .results button {
         width: 80px;
         height: 40px;
         font-size: 14px;
     }
-
     .header_title {
         font-size: 25px;
     }
-    
-
 }
 
 

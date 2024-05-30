@@ -228,7 +228,7 @@ Laptop L:<br>
 
 ## Browser Compatibility
 
-Fiorente Restaurant website was tested on the following browsers with no visible issues for the user:
+Guess the card game was tested on the following browsers with no visible issues for the user:
 
 1.Google Chrome<br>
 2.Microsoft Edge<br>
@@ -298,11 +298,11 @@ Difference between clone and fork: "Forking creates your own copy of a repositor
 
 # General Reference
 
-I created header similar way as we did in Love Running project. I have changed location of navigation, style and other little things.<br>
-For creating this readme, I have used example readme files from our group in Slack, where we have examples of first projects.<br>
+<br>
+For creating this readme, I have used an example from my PP1 ReadME<br>
 I used some help from YouTube tutorials as well.<br>
-For photos, I have used <a href="https://www.figma.com/">Figma</a> app for design.<br>
-Also I used to check <a href="https://www.behance.net/">Behance</a> website for inspiration and to choose topic for my first site.<br>
+For photos, I have used <a href="https://www.pinterest.com/adamjohnblake/marvel-cards/">Pinterest</a> website for design.<br>
+Also I used to check <a href="https://app.slack.com/client/T0L30B202/CGWQJQKC5">Peer-code-review</a> channel in Slack for inspiration and to choose topic for my PP2.<br>
 
 # Credits
 

@@ -26,10 +26,8 @@ Welcome to my <a href="https://nazar0309.github.io/Guess-the-card/">homepage</a>
   
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
-  - [Repository Problems](#repository-problems)
   - [Validation](#validation)
   - [Responsiveness Test](#responsiveness-test)
-  - [Lighthouse](#lighthouse)
   - [Browser Compatibility](#browser-compatibility)
 - [Deployment](#deployment)
 - [Credits](#credits)

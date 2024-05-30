@@ -10,7 +10,7 @@ export const shuffle = (array) => {
     }
 
     return array;
-}
+};
 //Create a function that duplicates the array
 export const duplicateArray = (array) => array.reduce((res, current) => res.concat([current, current]), []);
 
@@ -30,7 +30,7 @@ export const createImagesArray = (initialCount) => {
         default:
             break;
     }
-}
+};
 
 // Define game card creation function
 export const createGameCard = (flippedImg) => {
@@ -45,7 +45,7 @@ export const createGameCard = (flippedImg) => {
     
     card.append(flippedCard, notFlippedCard);
     return card;
-}
+};
 
 
 export const createTimer = () => { 
@@ -65,4 +65,4 @@ export const createTimer = () => {
     setInterval(updateTimer, 1000);
 
     return timer;
-}
+};

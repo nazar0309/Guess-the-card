@@ -179,6 +179,16 @@ index.html:<br>
 style.css:<br>
 <img src="/assets/readme_images/css_validation.png">
 
+### Java Script validation via <a href="https://jshint.com/">JS Hint</a>
+script.js:<br>
+<img src="/assets/readme_images/js_validate1.png">
+create_game.js:<br>
+<img src="/assets/readme_images/js_validate2.png">
+results.js:<br>
+<img src="/assets/readme_images/js_validate3.png">
+game_array.js:<br>
+<img src="/assets/readme_images/js_validate4.png">
+
 
 ## Responsiveness Test
 
@@ -240,12 +250,44 @@ The website was deployed on GitHub Pages following these steps:
 <img src="/assets/read_me_images/deployment_readme.png">
 
 
-## How to fork a project
-Information on how to fork a project: Information on how to fork a project: <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork the project</a><br>
+## How to Fork and Clone a Project
+
+### Forking a Project
+
+1. **Sign in to GitHub**:
+   - Ensure you are logged into your GitHub account.
+
+2. **Navigate to the Repository**:
+   - Go to the repository you want to fork. You can use the search bar at the top of the GitHub homepage to find the repository.
+
+3. **Fork the Repository**:
+   - Click the "Fork" button in the top-right corner of the repository page.
+   - GitHub will create a copy of the repository in your account.
+
+### Cloning a Project
+
+1. **Navigate to Your Forked Repository**:
+   - Go to your GitHub profile and navigate to the forked repository.
+
+2. **Get the Repository URL**:
+   - Click the "Code" button on the repository page.
+   - Copy the URL from the HTTPS tab. It should look something like `https://github.com/your-username/repository.git`.
+
+3. **Open Your Terminal**:
+   - Open your terminal or command prompt.
+
+4. **Run the Git Clone Command**:
+   ```bash
+   git clone <repository-url>
+
+   Replace <repository-url> with the URL you copied. For example:
+   git clone https://github.com/your-username/repository.git
+   Navigate to the Cloned Repository:
+Once the cloning process is complete, navigate to the repository folder:
+cd repository
+Replace repository with the name of the cloned repository.
 
 
-## How to clone a project
-Information on how to clone a project: <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">Clone the project</a><br>
 
 
 Difference between clone and fork: "Forking creates your own copy of a repository in a remote location (for example, GitHub). Your own copy means that you will be able to contribute changes to your copy of the repository without affecting the original repository. Cloning makes a local copy of a repository, not your own copy." <a href="https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git">Full explanation</a><br>

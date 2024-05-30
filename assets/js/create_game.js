@@ -88,6 +88,6 @@ export const startGame = (difficult) => {
             }
         }
     }));
-}
+};
 
 

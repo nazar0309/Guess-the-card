@@ -17,7 +17,7 @@ export const createGameMenu = () => {
         button.textContent = `${difficult} cards`;
         button.addEventListener('click', () => startGame(difficult));
         return button;
-    }
+    };
     
     // Append title and buttons to gameSection
     gameSection.appendChild(title);
@@ -25,7 +25,7 @@ export const createGameMenu = () => {
     gameSection.appendChild(createDifficultButton(12));
     gameSection.appendChild(createDifficultButton(14));
     gameSection.appendChild(createDifficultButton(16));
-}
+};
 
 
 // Run the game menu creation function initially

@@ -291,9 +291,16 @@ Difference between clone and fork: "Forking creates your own copy of a repositor
 
 # General Reference
 
+
+I have used <a href = 'https://www.npmjs.com/package/canvas-confetti'>Canvas Confetti library</a> to create my confetti animation
+
 <br>
 For creating this readme, I have used an example from my PP1 ReadME<br>
-I used some help from YouTube tutorials as well.<br>
+I used this YouTube tutorials for better understanding DOM, event listeners and how to use arrow functions:
+<a href='https://www.youtube.com/watch?v=fRRRkognpOs&ab_channel=BroCode'></a>
+<a href='https://www.youtube.com/watch?v=y17RuWkWdn8&t=946s&ab_channel=WebDevSimplified'></a>
+<a href='https://www.youtube.com/watch?v=XF1_MlZ5l6M&t=817s&ab_channel=WebDevSimplified'></a>
+
 For photos, I have used <a href="https://www.pinterest.com/adamjohnblake/marvel-cards/">Pinterest</a> website for design.<br>
 Also I used to check <a href="https://app.slack.com/client/T0L30B202/CGWQJQKC5">Peer-code-review</a> channel in Slack for inspiration and to choose topic for my PP2.<br>
 

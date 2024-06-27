@@ -297,9 +297,9 @@ I have used <a href = 'https://www.npmjs.com/package/canvas-confetti'>Canvas Con
 <br>
 For creating this readme, I have used an example from my PP1 ReadME<br>
 I used this YouTube tutorials for better understanding DOM, event listeners and how to use arrow functions:
-<a href='https://www.youtube.com/watch?v=fRRRkognpOs&ab_channel=BroCode'>Arrow functions</a>
-<a href='https://www.youtube.com/watch?v=y17RuWkWdn8&t=946s&ab_channel=WebDevSimplified'>DOM manipulation</a>
-<a href='https://www.youtube.com/watch?v=XF1_MlZ5l6M&t=817s&ab_channel=WebDevSimplified'>Event listeners</a>
+<a href='https://www.youtube.com/watch?v=fRRRkognpOs&ab_channel=BroCode'>Arrow functions</a></br>
+<a href='https://www.youtube.com/watch?v=y17RuWkWdn8&t=946s&ab_channel=WebDevSimplified'>DOM manipulation</a></br>
+<a href='https://www.youtube.com/watch?v=XF1_MlZ5l6M&t=817s&ab_channel=WebDevSimplified'>Event listeners</a></br>
 
 For photos, I have used <a href="https://www.pinterest.com/adamjohnblake/marvel-cards/">Pinterest</a> website for design.<br>
 Also I used to check <a href="https://app.slack.com/client/T0L30B202/CGWQJQKC5">Peer-code-review</a> channel in Slack for inspiration and to choose topic for my PP2.<br>
